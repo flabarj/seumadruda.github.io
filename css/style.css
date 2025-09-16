@@ -1,28 +1,45 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fdfaf7;
+  background-color: #fdfaf3;
+  font-family: "Times New Roman", serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 96px;
+  border: 3px solid #800020;
   border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 6px;
+  display: block;
+  margin: 12px auto;
 }
 
 .titulo {
+  font-size: 2rem;
   color: #800020; /* vinho */
-  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-nav a {
-  text-decoration: none;
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card-title {
   color: #800020;
+  font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.card-text {
+  font-size: 0.95rem;
+  color: #333;
 }
 
 .btn-primary {
@@ -31,19 +48,6 @@ nav a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #660018;
-  border-color: #660018;
+  background-color: #b03060;
+  border-color: #b03060;
 }
-
-footer {
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-
-
-
-
-
-
-
