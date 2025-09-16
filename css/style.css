@@ -48,6 +48,11 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #b03060;
-  border-color: #b03060;
+  background-color: #660018;
+  border-color: #660018;
+}
+
+footer {
+  background-color: #f4f4f4;
+  color: #333;
 }
