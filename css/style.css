@@ -1,30 +1,89 @@
-body { background-color: #fdfaf3; font-family: "Times New Roman", serif; color: #333; }
+body {
+  background-color: #fdfaf3;
+  font-family: "Times New Roman", serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-#topo { background-color: #efe7d0; border-color: #b58a3c; }
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #800020; /* vinho */
+  background-color: #f5e9d6;
+}
 
-.logo { width: 96px; border: 3px solid #6a1b1b; border-radius: 50%; background-color: #fff; padding: 6px; display: block; margin: 12px auto; }
+.logo {
+  width: 96px;
+  border: 3px solid #800020;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 6px;
+  display: block;
+  margin: 12px auto;
+}
 
-.titulo { color: #6a1b1b; font-size: 50px; margin: 0; }
+h1 {
+  font-size: 50px;
+  color: #800020;
+}
 
-#slogan { font-size: 20px; color: #444; padding: 8px 0; }
+nav a {
+  color: #800020;
+  font-size: 18px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+nav a:hover {
+  border-bottom: 2px solid #800020;
+}
 
-.links a { color: #6a1b1b; text-decoration: none; margin: 0 6px; }
-.links a:hover { text-decoration: underline; }
+section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 6px;
+}
 
-.bloco { background-color: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 20px; margin-bottom: 20px; }
+h2 {
+  font-size: 30px;
+  color: #800020;
+}
 
-.subtitulo { color: #6a1b1b; font-size: 28px; margin-bottom: 12px; }
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
 
-.thumb { border: 1px solid #ccc; border-radius: 6px; padding: 4px; background: #fff; }
+.btn-primary {
+  background-color: #800020;
+  border-color: #800020;
+}
+.btn-primary:hover {
+  background-color: #a52a2a;
+  border-color: #a52a2a;
+}
 
-.btn-wine { background-color: #6a1b1b; color: #fff; border: 2px solid #8b3a3a; }
-.btn-wine:hover { background-color: #8b3a3a; color: #fff; }
+#galeria img {
+  border: 2px solid #ccc;
+  padding: 4px;
+  margin: 8px;
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
 
-.tabela-precos thead th { background-color: #6a1b1b; color: #fff; }
-.tabela-precos td, .tabela-precos th { border-color: #6a1b1b; }
+footer {
+  border-top: 3px solid #800020;
+  text-align: center;
+  padding: 15px;
+  color: #800020;
+  font-size: 16px;
+  background-color: #f5e9d6;
+}
 
-.rodape { border-top: 3px solid #b58a3c; background-color: #efe7d0; color: #6a1b1b; font-size: 16px; }
 
-audio { width: 100%; }
 
 
