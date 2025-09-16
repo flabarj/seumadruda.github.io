@@ -1,141 +1,46 @@
-:root{
-  --vinho:#6a1b1b;
-  --dourado:#b8860b;
-  --azul:#1a237e;
-  --bg:#f7f5ef;
-  --card:#fff;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfaf7;
 }
 
-html,body{
-  background-color: var(--bg);
-  color:#333;
-  font-family: "Times New Roman", serif;
-  margin:0;
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
-.cabecalho{
-  background:#f4f2ea;
-  border-bottom:1px solid #e6dcc2;
+.titulo {
+  color: #800020; /* vinho */
+  margin-bottom: 15px;
 }
 
-.logo{
-  width:96px;
-  height:96px;
-  border:3px solid var(--dourado);
-  border-radius:50%;
-  background:#fff;
-  padding:6px;
-  display:block;
-  margin:6px auto 10px;
-  object-fit:cover;
+nav a {
+  text-decoration: none;
+  color: #800020;
 }
 
-.titulo-site{
-  font-size:54px;
-  color:var(--azul);
-  margin:0;
-  line-height:1.1;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.slogan{
-  font-style:italic;
-  background:#efe3c6;
-  border-top:1px solid #ead8b5;
-  border-bottom:1px solid #ead8b5;
-  margin:14px auto 0;
-  padding:10px 8px;
+.btn-primary {
+  background-color: #800020;
+  border-color: #800020;
 }
 
-.menu{
-  margin-top:12px;
-}
-.menu a{
-  text-decoration:none;
-  color:var(--azul);
-  margin:0 8px;
-}
-.menu a:hover{
-  border-bottom:2px solid var(--dourado);
-}
-.menu span{ color:#b5b5b5; }
-
-.bloco{
-  background:var(--card);
-  border:1px solid #eadfca;
-  border-radius:8px;
-  padding:24px;
+.btn-primary:hover {
+  background-color: #660018;
+  border-color: #660018;
 }
 
-.sec-titulo{
-  color:var(--vinho);
-  font-size:34px;
-  margin-bottom:10px;
+footer {
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.btn-vinho{
-  background:var(--vinho);
-  color:#fff;
-  border:2px solid var(--dourado);
-  border-radius:8px;
-}
-.btn-vinho:hover{
-  background:var(--dourado);
-  color:var(--azul);
-}
 
-.destaque-img{
-  display:block;
-  margin:12px auto;
-}
-
-.fig{
-  text-align:center;
-  padding:14px;
-  background:#fffbe6;
-  border:1px solid #f0e4b8;
-  border-radius:8px;
-  height:100%;
-}
-.fig-img{
-  display:block;
-  margin:0 auto 8px;
-  max-height:200px;
-  object-fit:contain;
-}
-.fig-cap{
-  font-weight:600;
-  margin-bottom:6px;
-}
-.link-ingresso{
-  text-decoration:none;
-  color:var(--vinho);
-}
-.link-ingresso:hover{
-  text-decoration:underline;
-}
-
-.tabela-precos{
-  border-collapse:collapse;
-  width:100%;
-  font-size:18px;
-}
-.tabela-precos th,
-.tabela-precos td{
-  border:2px solid var(--azul);
-  text-align:center;
-  padding:10px;
-}
-.tabela-precos thead th{
-  background:var(--dourado);
-  color:#fff;
-}
-
-.rodape{
-  border-top:3px solid var(--dourado);
-  background:#f4f2ea;
-  color:var(--azul);
-  font-size:16px;
-}
 
 
 
