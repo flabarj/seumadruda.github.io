@@ -1,52 +1,131 @@
+
 body {
-  background-color: #fdfaf3;
-  font-family: "Times New Roman", serif;
-  color: #333;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
 }
 
-.logo {
-  width: 96px;
-  border: 3px solid #6a1b1b;
-  border-radius: 50%;
-  background-color: #fff;
-  padding: 6px;
-  display: block;
-  margin: 12px auto;
+
+header {
+    background-color: #800020;   /* vinho */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-h1 {
-  font-size: 50px;
+header h1 {
+    margin: 0;
+    font-size: 2rem;
 }
 
-#slogan {
-  font-size: 20px;
-  color: #444;
-  padding: 10px;
-  background-color: #f6edd5;
-  border-left: 4px solid #6a1b1b;
+
+button,
+.btn {
+    background-color: #800020;   /* vinho */
+    border: none;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #a8324a;   /* vinho mais claro */
 }
 
 section {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 6px;
+    padding: 40px 20px;
 }
 
-h2 {
-  font-size: 28px;
-  color: #6a1b1b;
+section h2 {
+    color: #800020;
+    margin-bottom: 20px;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.6;
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #800020;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #800020;  /* vinho */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a8324a;
+}
+
 
 footer {
-  font-size: 16px;
-  color: #6a1b1b;
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
+
