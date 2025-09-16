@@ -1,58 +1,54 @@
 body {
-  background-color: #fdfaf3;
-  font-family: "Times New Roman", serif;
+  background-color: #f9f7f2;
   color: #333;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 .logo {
-  width: 96px;
-  border: 3px solid #800020;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
   border-radius: 50%;
-  background-color: #fff;
-  padding: 6px;
+  border: 4px solid #6a1b1b;
+  background: #fff;
+  padding: 4px;
   display: block;
-  margin: 12px auto;
+  margin: 0 auto 10px auto;
+}
+
+.site-title {
+  font-size: 48px;
+  color: #6a1b1b;
+  margin: 0;
+}
+
+nav a {
+  color: #1a237e;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 
 .titulo {
-  font-size: 2rem;
-  color: #800020; /* vinho */
-  font-weight: bold;
+  color: #6a1b1b;
+  font-size: 28px;
+  margin-bottom: 12px;
 }
 
-p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.card {
+/* Galeria: mantém imagens lado a lado e texto abaixo */
+#galeria img {
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
-.card-title {
-  color: #800020;
-  font-weight: bold;
-}
-
-.card-text {
-  font-size: 0.95rem;
-  color: #333;
-}
-
+/* Botões na cor “vinho” */
 .btn-primary {
-  background-color: #800020;
-  border-color: #800020;
+  background-color: #6a1b1b;
+  border-color: #6a1b1b;
 }
-
 .btn-primary:hover {
-  background-color: #660018;
-  border-color: #660018;
-}
-
-footer {
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #8a2626;
+  border-color: #8a2626;
 }
