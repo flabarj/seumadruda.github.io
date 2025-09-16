@@ -6,12 +6,12 @@
   <title>Museu SMP — Acervo e Exposições</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <header class="text-center p-4 bg-light border-bottom">
-    <img class="logo" src="Seu_Madruga.png" alt="Logomarca do Museu SMP">
+    <img class="logo" src="img/Seu_Madruga.png" alt="Logomarca do Museu SMP">
     <h1 class="titulo">Museu SMP</h1>
     <p class="fst-italic">Elegância, raridade e a certeza de que cada obra aqui merece um prêmio.</p>
     <nav>
@@ -27,27 +27,27 @@
 
   <main class="container my-4">
 
-    <!-- Obra em Destaque -->
+   
     <section id="destaque" class="mb-5">
       <h2 class="titulo">Obra em Destaque</h2>
       <div class="card mx-auto" style="max-width: 600px;">
-        <img src="maquina-de-escrever-de-uma-tecla-so.png" class="card-img-top" alt="Máquina de escrever de uma tecla só">
+        <img src="img/maquina-de-escrever-de-uma-tecla-so.png" class="card-img-top" alt="Máquina de escrever de uma tecla só">
         <div class="card-body text-center">
           <h5 class="card-title">Máquina de Escrever</h5>
           <p class="card-text">Obra que marca o encontro entre simplicidade e genialidade.</p>
-          <a class="btn btn-primary" href="#tabela"><i class="bi bi-ticket-perforated"></i> Adquirir ingressos</a>
+          <a class="btn btn-primary" href="#tabela"><i class="bi bi-cart"></i> Comprar ingresso</a>
         </div>
       </div>
     </section>
 
-    <!-- Galeria -->
+   
     <section id="galeria" class="mb-5">
       <h2 class="titulo">Galeria</h2>
       <div class="row text-center">
 
         <div class="col-sm-6 col-lg-3">
           <div class="card h-100">
-            <img src="carta-escrita-com-a-maquina-de-escrever-com-uma-tecla-so.png" class="card-img-top" alt="Carta datilografada">
+            <img src="img/carta-escrita-com-a-maquina-de-escrever-com-uma-tecla-so.png" class="card-img-top" alt="Carta datilografada">
             <div class="card-body">
               <h5 class="card-title">Carta Datilografada</h5>
               <p class="card-text">Correspondência clássica em uma tecla.</p>
@@ -57,7 +57,7 @@
 
         <div class="col-sm-6 col-lg-3">
           <div class="card h-100">
-            <img src="lapis-apontado-varias-vezes.png" class="card-img-top" alt="Lápis apontado várias vezes">
+            <img src="img/lapis-apontado-varias-vezes.png" class="card-img-top" alt="Lápis apontado várias vezes">
             <div class="card-body">
               <h5 class="card-title">Lápis Apontado</h5>
               <p class="card-text">O gesto repetido de apontar diversas vezes.</p>
@@ -67,7 +67,7 @@
 
         <div class="col-sm-6 col-lg-3">
           <div class="card h-100">
-            <img src="sanduiche-de-ovo.png" class="card-img-top" alt="Sanduíche de ovo">
+            <img src="img/sanduiche-de-ovo.png" class="card-img-top" alt="Sanduíche de ovo">
             <div class="card-body">
               <h5 class="card-title">Sanduíche de Ovo</h5>
               <p class="card-text">A peculiaridade de um clássico simples.</p>
@@ -77,7 +77,7 @@
 
         <div class="col-sm-6 col-lg-3">
           <div class="card h-100">
-            <img src="images.png" class="card-img-top" alt="Ícone de acervo">
+            <img src="img/images.png" class="card-img-top" alt="Ícone de acervo">
             <div class="card-body">
               <h5 class="card-title">Estudo de Formas</h5>
               <p class="card-text">Geometrias em formato de linguiça.</p>
@@ -88,7 +88,7 @@
       </div>
     </section>
 
-    <!-- Tabela de Preços -->
+    
     <section id="tabela" class="mb-5">
       <h2 class="titulo">Tabela de Preços</h2>
       <table class="table table-bordered">
@@ -123,14 +123,14 @@
       </table>
     </section>
 
-    <!-- Localização -->
+   
     <section id="mapa" class="mb-5">
       <h2 class="titulo">Localização</h2>
       <p>Nosso roteiro cultural em cenário paradisíaco: Acapulco.</p>
       <iframe title="Mapa — Acapulco" width="100%" height="360" style="border:0" loading="lazy" src="https://www.google.com/maps?q=Acapulco&output=embed"></iframe>
     </section>
 
-    <!-- Vídeo -->
+    
     <section id="video" class="mb-5">
       <h2 class="titulo">Vídeo</h2>
       <div class="ratio ratio-16x9">
@@ -138,16 +138,16 @@
       </div>
     </section>
 
-    <!-- Áudio -->
+  
     <section id="audio" class="mb-5">
       <h2 class="titulo">Trilha Sonora</h2>
       <audio controls class="w-100">
-        <source src="bensound-thetriumphoflife.mp3" type="audio/mpeg">
+        <source src="audio/bensound-thetriumphoflife.mp3" type="audio/mpeg">
         Seu navegador não suporta o áudio.
       </audio>
     </section>
 
-    <!-- Contato -->
+    
     <section id="contato" class="mb-5">
       <h2 class="titulo">Contato</h2>
       <form action="https://httpbin.org/post" method="POST">
@@ -162,15 +162,6 @@
         <div class="mb-3">
           <label for="mensagem" class="form-label">Mensagem</label>
           <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Feedback</label><br>
-          <input type="radio" id="gostei" name="feedback" value="Gostei"> <label for="gostei">Gostei</label>
-          <input type="radio" id="naogostei" name="feedback" value="Não Gostei"> <label for="naogostei">Não Gostei</label>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="termos" required>
-          <label for="termos" class="form-check-label">Concordo com os termos fictícios</label>
         </div>
         <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Enviar</button>
       </form>
