@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museu SMP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/seumadruda.github.io/css/style.css">
+</head>
+<body>
+
+  <header class="text-center p-4 bg-light border-bottom">
+    <img class="logo" src="/seumadruda.github.io/img/Seu_Madruga.png" alt="Logomarca do Museu SMP">
+    <h1 class="titulo-site">Museu SMP</h1>
+    <p class="fst-italic subtitulo">Elegância, raridade e a certeza de que cada obra aqui merece um prêmio.</p>
+    <nav class="links-topo">
+      <a href="#destaque" class="m-2"><i class="bi bi-star"></i> Destaque</a> |
+      <a href="#galeria" class="m-2"><i class="bi bi-image"></i> Galeria</a> |
+      <a href="#tabela" class="m-2"><i class="bi bi-table"></i> Tabela de Preços</a> |
+      <a href="#mapa" class="m-2"><i class="bi bi-geo-alt"></i> Localização</a> |
+      <a href="#video" class="m-2"><i class="bi bi-play-circle"></i> Vídeo</a> |
+      <a href="#audio" class="m-2"><i class="bi bi-music-note-beamed"></i> Música</a> |
+      <a href="#contato" class="m-2"><i class="bi bi-envelope"></i> Contato</a>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+
+    <section id="aviso" class="mb-4">
+      <div class="alert alert-warning text-center" role="alert">
+        Aviso de curadoria: entrada gratuita para quem trouxer um <span class="badge text-bg-dark">Sanduíche de Presunto</span>.
+      </div>
+    </section>
+
+    <section id="destaque" class="mb-5">
+      <h2 class="titulo">Obra em Destaque</h2>
+      <p>"Máquina de escrever de uma tecla só."</p>
+      <img src="/seumadruda.github.io/img/maquina-de-escrever-de-uma-tecla-so.png" alt="Máquina de escrever de uma tecla só" class="img-fluid">
+      <p>Obra que marca o encontro entre simplicidade e genialidade.</p>
+      <a class="btn btn-primario" href="#tabela"><i class="bi bi-cart"></i> Comprar ingresso</a>
+    </section>
+
+    <section id="galeria" class="mb-5">
+      <h2 class="titulo">Galeria</h2>
+      <div class="row text-center g-4">
+        <div class="col-sm-6 col-lg-3">
+          <img src="/seumadruda.github.io/img/carta-escrita-com-a-maquina-de-escrever-com-uma-tecla-so.png" class="img-fluid mb-2 sombra" alt="Carta datilografada">
+          <h5 class="card-title">Carta Datilografada</h5>
+          <p class="card-text">Correspondência clássica em uma tecla só.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/seumadruda.github.io/img/lapis-apontado-varias-vezes.png" class="img-fluid mb-2 sombra" alt="Lápis apontado várias vezes">
+          <h5 class="card-title">Lápis Apontado</h5>
+          <p class="card-text">O gesto apontado várias vezes.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/seumadruda.github.io/img/sanduiche-de-ovo.png" class="img-fluid mb-2 sombra" alt="Sanduíche de ovo">
+          <h5 class="card-title">Sanduíche de Ovo</h5>
+          <p class="card-text">A peculiaridade do sanduíche.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/seumadruda.github.io/img/images.png" class="img-fluid mb-2 sombra" alt="Ícone de acervo">
+          <h5 class="card-title">Estudo de Formas</h5>
+          <p class="card-text">Geometrias em formato de linguiça.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="novidades" class="mb-5">
+      <h2 class="titulo">Novidades</h2>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Nova sala temporária: “Minimalismos”
+          <span class="badge text-bg-secondary">Em cartaz</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Visita guiada às 15h
+          <span class="badge text-bg-success">Grátis</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Catálogo físico
+          <span class="badge text-bg-info">Novo</span>
+        </li>
+      </ul>
+
+      <p class="mb-1">Ingressos vendidos hoje</p>
+      <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-primario" style="width: 70%;">70%</div>
+      </div>
+    </section>
+
+    <section id="tabela" class="mb-5">
+      <h2 class="titulo">Tabela de Preços</h2>
+      <table class="table table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>Ingresso</th>
+            <th>Beneficiário</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Inteira</td>
+            <td>Público geral</td>
+            <td>R$ 40,00</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Meia-entrada</td>
+            <td>Estudantes</td>
+            <td>R$ 20,00</td>
+          </tr>
+          <tr>
+            <td>Idosos</td>
+            <td>R$ 20,00</td>
+          </tr>
+          <tr>
+            <td>Especial</td>
+            <td>Quem trouxer um Sanduíche de Presunto</td>
+            <td>Grátis</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="mapa" class="mb-5">
+      <h2 class="titulo">Localização</h2>
+      <p>Nosso roteiro cultural em cenário paradisíaco: Acapulco.</p>
+      <iframe title="Mapa — Acapulco" width="100%" height="360" style="border:0" loading="lazy" src="https://www.google.com/maps?q=Acapulco&output=embed"></iframe>
+    </section>
+
+    <section id="video" class="mb-5">
+      <h2 class="titulo">Vídeo</h2>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/HTSPZ3cqrGE" title="Vídeo YouTube" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="audio" class="mb-5">
+      <h2 class="titulo">Trilha Sonora</h2>
+      <audio controls class="w-100">
+        <source src="/seumadruda.github.io/audio/bensound-thetriumphoflife.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section id="contato" class="mb-5">
+      <h2 class="titulo">Contato</h2>
+      <form action="https://httpbin.org/post" method="POST">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primario"><i class="bi bi-send"></i> Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="text-center p-3 bg-light border-top">
+    <p>&copy; 2025 Museu SMP — Curadoria e Acervo</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
